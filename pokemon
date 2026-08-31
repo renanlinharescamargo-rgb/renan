@@ -1,0 +1,32 @@
+Batalha de pokemon
+import random 
+
+class pokemon:
+ #construtor da classe
+ def_int_(self,nome,vida,ataque):
+    self.nome = nome
+    self.vida = vida
+    self.ataque = ataque
+ def atacar(self inimigo):
+   dano = random.randit(self.ataque//2,self.ataque)
+   print(self.nome,"atacou",inimigo.nome)
+   print("dano",dano)
+   inimigo.vida = inimigo.vida - dano
+#BATALHA
+while pikachu > 0 and charmander.vida > 0:
+  pikachu.atacar(charmander)
+  if charmander.vida < = 0
+     print("charmander foi derrotado")
+     print("pikachu venceu!")
+     break
+  charmander.atacar(pikachu)
+  if pikachu.vida < = 0
+     print("pikachu foi derrotado!")
+     print("charmander venceu!")
+     break
+  if inimigo.vida < 0:
+     inimigo.vida = 0 
+  print("vida de,"inimigo.nome,":",inimigo.vida
+  print()
+  pikachu = pokemon("pikachu",100,30)
+  charmander = pokemon("charmander",100,25)
